@@ -54,14 +54,3 @@ jobs:
       - run:
           name: Install native-image
           command: $GRAALVM_HOME/bin/gu install native-image
-
-      # Perform a native Quarkus build and verify
-      # ########################
-      - run:
-          name: Build (Native)
-          command: ./mvnw clean package -Pnative -DskipTests -Dmaven.test.skip=true
-          no_output_timeout: 30m
-      - run:
-          name: Verify (Native)
-          command: ./mvnw verify -Pnative
-          no_output_timeout: 30m
