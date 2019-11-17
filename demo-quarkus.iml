@@ -49,16 +49,42 @@
     <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: com.sun.activation:jakarta.activation:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-junit5:1.0.0.CR1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-bootstrap-core:1.0.0.CR1" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-resteasy-jsonb:1.0.0.CR1" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-jsonb:1.0.0.CR1" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse:yasson:1.0.5" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.resteasy:resteasy-json-binding-provider:4.4.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish:jakarta.json:1.1.6" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.json.bind:jakarta.json.bind-api:1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.resteasy:resteasy-json-p-provider:4.4.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.6" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-resteasy-jackson:1.0.0.CR1" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-jackson:1.0.0.CR1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.10.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.10" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.resteasy:resteasy-jackson2-provider:4.4.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.resteasy:resteasy-jaxb-provider:4.4.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.3-b01" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jaxb:txw2:2.3.3-b01" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.istack:istack-commons-runtime:3.0.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.9.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.9.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.10" level="project" />
+    <orderEntry type="library" name="Maven: com.github.fge:json-patch:1.9" level="project" />
+    <orderEntry type="library" name="Maven: com.github.fge:jackson-coreutils:1.6" level="project" />
+    <orderEntry type="library" name="Maven: com.github.fge:msg-simple:1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.fge:btf:1.2" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:27.0.1-jre" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:2.5.2" level="project" />
-    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.2.0" level="project" />
-    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.1" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.17" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:2.0.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-junit5:1.0.0.CR1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-bootstrap-core:1.0.0.CR1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-lang3:3.9" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.maven:maven-embedder:3.5.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.maven:maven-settings:3.5.4" level="project" />
@@ -94,7 +120,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.maven.wagon:wagon-http-shared:3.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jsoup:jsoup:1.7.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.maven.wagon:wagon-file:3.0.0" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jboss.logging:commons-logging-jboss-logging:1.0.0.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-test-common:1.0.0.CR1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.quarkus:quarkus-core-deployment:1.0.0.CR1" level="project" />
@@ -159,6 +184,8 @@
     <orderEntry type="library" name="Maven: org.apache.thrift:libthrift:0.12.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.12.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.15.0" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye:smallrye-metrics:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.microprofile.metrics:microprofile-metrics-api:2.2" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-undertow:1.0.0.CR1" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus.http:quarkus-http-servlet:3.0.0.Beta3" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus.http:quarkus-http-vertx-backend:3.0.0.Beta3" level="project" />
@@ -167,7 +194,6 @@
     <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.42.Final" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-jsonp:1.0.0.CR1" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish:jakarta.json:1.1.6" level="project" />
     <orderEntry type="library" name="Maven: jakarta.servlet:jakarta.servlet-api:4.0.3" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-jdbc-h2:1.0.0.CR1" level="project" />
     <orderEntry type="library" name="Maven: com.h2database:h2:1.4.197" level="project" />
@@ -177,34 +203,6 @@
     <orderEntry type="library" name="Maven: io.quarkus.arc:arc:1.0.0.CR1" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate.validator:hibernate-validator:6.1.0.Final" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.3.4" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-resteasy-jsonb:1.0.0.CR1" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-jsonb:1.0.0.CR1" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse:yasson:1.0.5" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.resteasy:resteasy-json-binding-provider:4.4.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: jakarta.json.bind:jakarta.json.bind-api:1.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.resteasy:resteasy-json-p-provider:4.4.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: commons-io:commons-io:2.6" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-resteasy-jackson:1.0.0.CR1" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-jackson:1.0.0.CR1" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.10.1" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.10" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.10" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.10" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.resteasy:resteasy-jackson2-provider:4.4.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.resteasy:resteasy-jaxb-provider:4.4.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.3-b01" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.jaxb:txw2:2.3.3-b01" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.istack:istack-commons-runtime:3.0.10" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.10" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.10" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.9.10" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.9.10" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.10" level="project" />
-    <orderEntry type="library" name="Maven: com.github.fge:json-patch:1.9" level="project" />
-    <orderEntry type="library" name="Maven: com.github.fge:jackson-coreutils:1.6" level="project" />
-    <orderEntry type="library" name="Maven: com.github.fge:msg-simple:1.1" level="project" />
-    <orderEntry type="library" name="Maven: com.github.fge:btf:1.2" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:2.0.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-spring-data-jpa:1.0.0.CR1" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-hibernate-orm-panache:1.0.0.CR1" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-hibernate-orm:1.0.0.CR1" level="project" />
@@ -246,12 +244,13 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.1.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:5.1.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.9.3" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-smallrye-health:1.0.0.CR1" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye:smallrye-health:2.1.0" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.microprofile.health:microprofile-health-api:2.1" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-smallrye-metrics:1.0.0.CR1" level="project" />
-    <orderEntry type="library" name="Maven: io.smallrye:smallrye-metrics:2.3.0" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.microprofile.metrics:microprofile-metrics-api:2.2" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-smallrye-openapi:1.0.0.CR1" level="project" />
+    <orderEntry type="library" name="Maven: io.smallrye:smallrye-open-api:1.1.19" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.microprofile.openapi:microprofile-openapi-api:1.1.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.10" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.25" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.shrinkwrap:shrinkwrap-api:1.2.6" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-swagger-ui:1.0.0.CR1" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-jdbc-postgresql:1.0.0.CR1" level="project" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.2.6" level="project" />
   </component>

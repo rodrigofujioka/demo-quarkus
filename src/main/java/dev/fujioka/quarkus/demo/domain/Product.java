@@ -2,6 +2,8 @@ package dev.fujioka.quarkus.demo.domain;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
@@ -25,9 +27,11 @@ public class Product implements Serializable {
 
     @Column(nullable = false, updatable = false)
     @Temporal(TemporalType.TIMESTAMP)
+    @CreationTimestamp
     private Date dtCreation;
 
     @Temporal(TemporalType.TIMESTAMP)
+    @UpdateTimestamp
     private Date dtUpdate;
 
     public Long getId() {
