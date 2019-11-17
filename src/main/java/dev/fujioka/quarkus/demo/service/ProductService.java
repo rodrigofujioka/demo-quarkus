@@ -16,7 +16,7 @@ public class ProductService implements CrudService<Product> {
      ProductRepository productRepository;
 
     public List<Product> findAll() {
-        return null;
+        return productRepository.findAll();
     }
 
 
@@ -26,21 +26,21 @@ public class ProductService implements CrudService<Product> {
 
 
     public Optional<Product> findById(long id) {
-        return Optional.empty();
+        return productRepository.findById(id);
     }
 
 
     public void delete(Product entity) {
-
+        productRepository.delete(entity);
     }
 
 
     public void deleteById(long id) {
-
+         productRepository.deleteById(id);
     }
 
 
     public long count() {
-        return 0;
+        return productRepository.count();
     }
 }

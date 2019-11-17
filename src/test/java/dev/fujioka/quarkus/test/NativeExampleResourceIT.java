@@ -1,4 +1,4 @@
-package com.rodrigofujioka.jg.tcc;
+package dev.fujioka.quarkus.test;
 
 import io.quarkus.test.junit.NativeImageTest;
 
