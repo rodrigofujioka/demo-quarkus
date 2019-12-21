@@ -7,7 +7,8 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.jvm -t quarkus/demo-quarkus-jvm .
+# docker build -f src/main/docker/Dockerfile.jvm -t quarkus/demo-quarkus-jvm
+ .
 #
 # Then run the container using:
 #
