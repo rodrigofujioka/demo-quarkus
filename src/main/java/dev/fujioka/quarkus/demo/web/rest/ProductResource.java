@@ -6,7 +6,6 @@ import dev.fujioka.quarkus.demo.service.ProductService;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.util.List;
-import java.util.Optional;
 
 @Path("/api")
 public class ProductResource {
