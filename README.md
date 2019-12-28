@@ -11,6 +11,16 @@ The project prupose help  Students and  entusiatics to improve your know  about 
 <a href="https://github.com/rodrigofujioka/demo-quarkus/pulse" alt="Activity">
     <img src="https://img.shields.io/github/commit-activity/m/rodrigofujioka/demo-quarkus" /></a>  
    
+
+[![CircleCI](https://circleci.com/gh/rodrigofujioka/demo-quarkus.svg?style=svg)](https://circleci.com/gh/rodrigofujioka/demo-quarkus)
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_demo-quarkus&metric=bugs)](https://sonarcloud.io/dashboard?id=rodrigofujioka_demo-quarkus) 
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_demo-quarkus&metric=code_smells)](https://sonarcloud.io/dashboard?id=rodrigofujioka_demo-quarkus) 
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_demo-quarkus&metric=alert_status)](https://sonarcloud.io/dashboard?id=rodrigofujioka_demo-quarkus) 
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_demo-quarkus&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=rodrigofujioka_demo-quarkus) 
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_demo-quarkus&metric=ncloc)](https://sonarcloud.io/dashboard?id=rodrigofujioka_demo-quarkus) 
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_demo-quarkus&metric=vulnerabilities)
+
    
 #Refs:
 
