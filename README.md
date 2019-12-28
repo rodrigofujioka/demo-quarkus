@@ -1,6 +1,8 @@
 # demo-quarkus
 Demo quarkus for classes and Presentations.
 
+The project prupose help  Students and  entusiatics to improve your know  about Quarkus with Spring data and Swagger documentation
+
 [![License](https://img.shields.io/github/license/rodrigofujioka/demo-quarkus.svg)](https://opensource.org/licenses/MIT)
 <img src="https://img.shields.io/github/followers/rodrigofujioka?label=Follow&style=plastic">
 <img src="https://img.shields.io/github/forks/rodrigofujioka/demo-quarkus?color=SSSS&label=Fork&style=plastic">

@@ -6,7 +6,6 @@ import dev.fujioka.quarkus.demo.service.ProductService;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.util.List;
-import java.util.Optional;
 
 @Path("/api")
 public class ProductResource {
@@ -23,6 +22,7 @@ public class ProductResource {
     @Consumes("application/json")
     public Response salvar(Product product){
 
+
         return Response.ok(productService.save(product)).build();
     }
 
@@ -30,7 +30,10 @@ public class ProductResource {
     @Path("/product/{id}")
     @Produces("application/json")
     public Response findProduct(@PathParam("id") Long id){
-        return Response.ok(productService.findById(id)).build();
+        String nome = "Rodrigo Fujioka Alterado";
+        Product product = new Product();
+        product.setDescription(nome);
+        return Response.ok(product).build();
     }
 
 
