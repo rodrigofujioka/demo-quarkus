@@ -47,14 +47,15 @@ jobs:
           command: mvn test
 
       # Install GraalVM and native-image, needed for a native Quarkus build
+      # GraalVM 19.3.1 suports Java 11
       # ########################
       - run:
           name: Install GraalVM
-          command: curl https://github.com/oracle/graal/releases/download/vm-19.1.1/graalvm-ce-linux-amd64-19.1.1.tar.gz -O -J -L && tar xfz graalvm-ce-linux-amd64-19.1.1.tar.gz && mv graalvm-ce-19.1.1 .graalvm && rm graalvm-ce-linux-amd64-19.1.1.tar.gz
+          command: curl https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.1/graalvm-ce-java11-linux-amd64-19.3.1.tar.gz -O -J -L && tar xfz graalvm-ce-linux-amd64-19.3.1.tar.gz && mv graalvm-ce-19.3.1 .graalvm && rm graalvm-ce-linux-amd64-19.3.1.tar.gz
       - run:
           name: Install native-image
           command: $GRAALVM_HOME/bin/gu install native-image
-          
+
           # Perform a native Quarkus build and verify
       # ########################
       - run:
