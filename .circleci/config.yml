@@ -45,9 +45,9 @@ jobs:
       - run:
           name: Build (Standard)
           command: mvn clean package -DskipTests -Dmaven.test.skip=true
-      - run:
-          name: Verify (Standard)
-          command: mvn test
+      #- run:
+      #    name: Verify (Standard)
+      #    command: mvn test
 
       # Install GraalVM and native-image, needed for a native Quarkus build
       # GraalVM 19.3.1 suports Java 11
