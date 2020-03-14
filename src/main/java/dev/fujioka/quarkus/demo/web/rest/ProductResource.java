@@ -6,6 +6,7 @@ import dev.fujioka.quarkus.demo.service.ProductService;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 @Path("/api")
 public class ProductResource {
@@ -52,7 +53,9 @@ public class ProductResource {
     @Consumes("application/json")
     public Response save(Product product) {
 
-        product = productService.save(product).get() ;
+        product = productService
+        					.save(product)
+        					.orElseThrow(NoSuchElementException::new) ;
 
         return Response.ok().entity(product).build();
     }
@@ -63,7 +66,8 @@ public class ProductResource {
     @Consumes("application/json")
     public Response update(Product product) {
 
-        product = productService.save(product).get();
+        product = productService.save(product)
+        		.orElseThrow(NoSuchElementException::new) ;;
 
         return Response.ok().entity(product).build();
     }
@@ -72,7 +76,7 @@ public class ProductResource {
     @Path("/product")
     @Produces("application/json")
     @Consumes("application/json")
-    public Response delete( Product product) {
+    public Response delete(Product product) {
 
         productService.delete(product);
         return Response.ok("Product excluded " + product.getId()).build();
