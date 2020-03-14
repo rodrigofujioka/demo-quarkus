@@ -15,7 +15,15 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <compiler-plugin.version>3.8.1</compiler-plugin.version>
     <maven.compiler.target>1.8</maven.compiler.target>
+      
+      <sonar.projectKey>rodrigofujioka_demo-quarkus</sonar.projectKey>
+	  <sonar.organization>rodrigofujioka</sonar.organization>
+	  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	  <sonar.login>95283fd3e9092561d622be5be720853be24ef453</sonar.login>
+  
   </properties>
+
+
   <dependencyManagement>
     <dependencies>
       <dependency>
