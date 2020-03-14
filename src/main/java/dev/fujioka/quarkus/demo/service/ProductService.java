@@ -1,13 +1,13 @@
 package dev.fujioka.quarkus.demo.service;
 
-import dev.fujioka.quarkus.demo.domain.Product;
-import dev.fujioka.quarkus.demo.repository.ProductRepository;
-
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.inject.Default;
-import javax.inject.Inject;
 import java.util.List;
 import java.util.Optional;
+
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
+
+import dev.fujioka.quarkus.demo.domain.Product;
+import dev.fujioka.quarkus.demo.repository.ProductRepository;
 
 @ApplicationScoped
 public class ProductService implements CrudService<Product> {
