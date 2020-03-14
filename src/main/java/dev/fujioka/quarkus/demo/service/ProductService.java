@@ -5,7 +5,6 @@ import java.util.Optional;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
-
 import dev.fujioka.quarkus.demo.domain.Product;
 import dev.fujioka.quarkus.demo.repository.ProductRepository;
 
