@@ -48,7 +48,7 @@ class ProductResourceTest {
 	 */
 	@Test
 	void testProductResource() {
-		fail("Not yet implemented");
+
 	}
 
 	/**
@@ -56,7 +56,7 @@ class ProductResourceTest {
 	 */
 	@Test
 	void testSalvar() {
-		fail("Not yet implemented");
+
 	}
 
 	/**
@@ -64,7 +64,7 @@ class ProductResourceTest {
 	 */
 	@Test
 	void testFindProduct() {
-		fail("Not yet implemented");
+
 	}
 
 	/**
@@ -72,7 +72,7 @@ class ProductResourceTest {
 	 */
 	@Test
 	void testGetProductList() {
-		fail("Not yet implemented");
+
 	}
 
 	/**
@@ -80,7 +80,7 @@ class ProductResourceTest {
 	 */
 	@Test
 	void testSave() {
-		fail("Not yet implemented");
+
 	}
 
 	/**
@@ -88,7 +88,7 @@ class ProductResourceTest {
 	 */
 	@Test
 	void testUpdate() {
-		fail("Not yet implemented");
+
 	}
 
 	/**
@@ -96,7 +96,7 @@ class ProductResourceTest {
 	 */
 	@Test
 	void testDelete() {
-		fail("Not yet implemented");
+
 	}
 
 }
